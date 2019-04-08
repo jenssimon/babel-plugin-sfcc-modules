@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "../index",
+      {
+        "cartridgePath": [
+          "app_brand",
+          "app_core",
+          "app_storefront_base"
+        ],
+        "basePath": "./test/cartridges"
+      }
+    ]
+  ]
+}
