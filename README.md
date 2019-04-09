@@ -23,7 +23,7 @@ module.superModule
 
 to reference the next match in cartridge path for the current module.
 
-For all of this there is no Node.js equivalent. This can cause problems when you need to run this code in a Node.js environment. The most common case should be for unit testing.
+Node.js does not have solutions for these cases.. This can cause problems when you need to run this code in a Node.js environment. The most common case should be for unit testing.
 
 This plugin removes the pain of dealing with modules like [proxyquire](https://www.npmjs.com/package/proxyquire) or [sandboxed-module](https://www.npmjs.com/package/sandboxed-module).
 
@@ -61,7 +61,7 @@ Option          | Type     | Description
 
 ![kitten.png](https://github.com/jenssimon/babel-plugin-sfcc-modules/raw/master/kitten.png)
 
-You shouldn't use it for frontend code. There are better alternatives to dealing witj a cartridge path, [NODE_PATH](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders) and the handling of frontend assets in [sgmf-scripts](https://www.npmjs.com/package/sgmf-scripts).
+You shouldn't use it for frontend code. There are better alternatives to deal with a cartridge path, [NODE_PATH](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders) and the handling of frontend assets in [sgmf-scripts](https://www.npmjs.com/package/sgmf-scripts).
 
 In my opinion the best way to handle frontend code is to have a clean configuration of Webpack aliases.
 
