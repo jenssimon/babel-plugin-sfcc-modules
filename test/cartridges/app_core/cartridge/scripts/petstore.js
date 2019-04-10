@@ -1,3 +1,3 @@
-const pet = require('^/cartridge/scripts/pet');
+const pet = require('~/cartridge/scripts/pet');
 
 module.exports = pet;

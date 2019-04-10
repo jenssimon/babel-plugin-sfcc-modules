@@ -13,7 +13,7 @@ require('*/cartridge/scripts/foo')
 
 - current cartridge
 ```javascript
-require('^/cartridge/scripts/bar')
+require('~/cartridge/scripts/bar')
 ```
 
 Also there is a non-standard extension

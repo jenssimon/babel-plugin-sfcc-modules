@@ -43,11 +43,11 @@ module.exports = (babel, { cartridgePath, basePath }) => ({
 
         // Handle
         //
-        // require('^/cartridge/scripts/foo')
+        // require('~/cartridge/scripts/foo')
         //
         // Own cartridge - rewrites the module path to a relative URL.
         //
-        if (imp.source.indexOf('^/') === 0) {
+        if (imp.source.indexOf('~/') === 0) {
           resolve(() => path.relative(basePath, path.dirname(state.file.opts.filename)).split(path.sep)[0]);
         }
       });
