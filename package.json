@@ -20,7 +20,7 @@
     "module",
     "supermodule"
   ],
-  "main": "index.js",
+  "main": "./lib/index.js",
   "author": "Jens Simon <https://github.com/jenssimon>",
   "license": "MIT",
   "private": false,
@@ -54,5 +54,8 @@
   "dependencies": {
     "@babel/types": "^7.4.0",
     "imports-visitor": "^2.0.0"
-  }
+  },
+  "files": [
+    "/lib"
+  ]
 }
