@@ -30,30 +30,31 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.7",
+    "@babel/core": "^7.8.3",
     "@jenssimon/eslint-config-base": "^1.4.0",
-    "@jenssimon/eslint-config-sfcc": "^1.2.1",
+    "@jenssimon/eslint-config-sfcc": "^2.0.0",
     "babel-eslint": "^10.0.3",
     "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-dollar-sign": "^1.0.2",
+    "eslint-plugin-es5": "^1.4.1",
     "eslint-plugin-eslint-comments": "^3.1.2",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jest": "^23.2.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-jquery": "^1.5.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-optimize-regex": "^1.1.7",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "eslint-plugin-sitegenesis": "^1.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.8.0",
-    "jest": "^24.9.0"
+    "jest": "^25.1.0"
   },
   "dependencies": {
-    "@babel/types": "^7.7.4",
+    "@babel/types": "^7.8.3",
     "imports-visitor": "^2.0.0"
   },
   "files": [
