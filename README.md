@@ -69,11 +69,11 @@ The cartridge path concept isn't common for Node.js/frontend code. This plugin w
 
 ## License
 
-MIT © 2019 [Jens Simon](https://github.com/jenssimon)
+MIT © 2020 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/babel-plugin-sfcc-modules
 [npm-image]: https://badgen.net/npm/v/babel-plugin-sfcc-modules
-[npm-downloads-image]: https://badgen.net/npm/dt/babel-plugin-sfcc-modules
+[npm-downloads-image]: https://badgen.net/npm/dw/babel-plugin-sfcc-modules
 
 [deps-url]: https://david-dm.org/jenssimon/babel-plugin-sfcc-modules
 [deps-image]: https://badgen.net/david/dep/jenssimon/babel-plugin-sfcc-modules
