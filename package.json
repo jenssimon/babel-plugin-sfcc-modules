@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-sfcc-modules",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Babel plugin to handle non-standard module paths used by Salesforce Commerce Cloud (SFCC)",
   "repository": {
     "type": "git",
