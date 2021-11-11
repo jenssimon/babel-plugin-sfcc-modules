@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] ![Code Style][codestyle-image]
 
 # babel-plugin-sfcc-modules
 
@@ -74,9 +74,6 @@ MIT © 2021 [Jens Simon](https://github.com/jenssimon)
 [npm-url]: https://www.npmjs.com/package/babel-plugin-sfcc-modules
 [npm-image]: https://badgen.net/npm/v/babel-plugin-sfcc-modules
 [npm-downloads-image]: https://badgen.net/npm/dw/babel-plugin-sfcc-modules
-
-[deps-url]: https://david-dm.org/jenssimon/babel-plugin-sfcc-modules
-[deps-image]: https://badgen.net/david/dep/jenssimon/babel-plugin-sfcc-modules
 
 [gh-url]: https://github.com/jenssimon/babel-plugin-sfcc-modules
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/babel-plugin-sfcc-modules
