@@ -23,7 +23,6 @@
   "main": "./lib/index.js",
   "author": "Jens Simon <https://github.com/jenssimon>",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "lint": "eslint --fix ./",
     "test": "jest --coverage",
@@ -49,5 +48,6 @@
     "extends": [
       "@jenssimon/base"
     ]
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
