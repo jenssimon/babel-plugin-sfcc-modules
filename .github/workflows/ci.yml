@@ -31,8 +31,7 @@ jobs:
     - name: Test
       run: |
         yarn
-        yarn lint
-        yarn test
+        yarn ci
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
