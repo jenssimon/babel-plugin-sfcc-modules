@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 # babel-plugin-sfcc-modules
 
@@ -78,11 +78,7 @@ MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/babel-plugin-sfcc-modules
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/babel-plugin-sfcc-modules
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/babel-plugin-sfcc-modules
-
-[travis-url]: https://travis-ci.com/jenssimon/babel-plugin-sfcc-modules
-[travis-image]: https://travis-ci.com/jenssimon/babel-plugin-sfcc-modules.svg?branch=master
+[gh-status-image]: https://badgen.net/github/status/jenssimon/babel-plugin-sfcc-modules
 
 [coveralls-url]: https://coveralls.io/github/jenssimon/babel-plugin-sfcc-modules?branch=master
 [coveralls-image]: https://coveralls.io/repos/github/jenssimon/babel-plugin-sfcc-modules/badge.svg?branch=master
-
-[codestyle-image]: https://badgen.net/badge/code%20style/airbnb/f2a
