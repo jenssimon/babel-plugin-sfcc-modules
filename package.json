@@ -31,7 +31,7 @@
     "ci:test": "jest --coverage"
   },
   "devDependencies": {
-    "@babel/core": "7.17.9",
+    "@babel/core": "7.17.10",
     "@babel/eslint-parser": "7.17.0",
     "@jenssimon/eslint-config-base": "5.4.0",
     "@jenssimon/eslint-config-sfcc": "4.1.0",
