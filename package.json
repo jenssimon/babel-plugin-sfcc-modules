@@ -26,9 +26,9 @@
   "scripts": {
     "lint": "eslint --fix ./",
     "test": "jest --coverage",
-    "ci": "run-s \"ci:*\"",
-    "ci:lint": "eslint ./",
-    "ci:test": "jest --coverage"
+    "ci-test": "run-s \"ci-test:*\"",
+    "ci-test:lint": "eslint ./",
+    "ci-test:test": "jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "7.17.10",
