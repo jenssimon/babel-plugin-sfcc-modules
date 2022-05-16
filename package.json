@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "7.17.10",
     "@babel/eslint-parser": "7.17.0",
-    "@jenssimon/eslint-config-base": "5.4.0",
+    "@jenssimon/eslint-config-base": "5.4.1",
     "@jenssimon/eslint-config-sfcc": "4.1.0",
     "eslint": "8.15.0",
     "jest": "28.1.0",
