@@ -1961,6 +1961,7 @@ __metadata:
     "@commitlint/config-conventional": 17.0.0
     "@jenssimon/eslint-config-base": 5.4.1
     "@jenssimon/eslint-config-sfcc": 4.1.0
+    commitizen: 4.2.4
     cz-conventional-changelog: 3.3.0
     eslint: 8.15.0
     husky: 8.0.1
@@ -2311,7 +2312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commitizen@npm:^4.0.3":
+"commitizen@npm:4.2.4, commitizen@npm:^4.0.3":
   version: 4.2.4
   resolution: "commitizen@npm:4.2.4"
   dependencies:
