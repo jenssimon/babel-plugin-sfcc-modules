@@ -52,7 +52,7 @@
     "semantic-release": "19.0.3"
   },
   "dependencies": {
-    "@babel/types": "^7.17.0",
+    "@babel/types": "^7.18.10",
     "imports-visitor": "^2.0.0"
   },
   "files": [
@@ -61,7 +61,10 @@
   "eslintConfig": {
     "extends": [
       "@jenssimon/base"
-    ]
+    ],
+    "rules": {
+      "unicorn/prefer-module": "off"
+    }
   },
   "packageManager": "yarn@3.2.2",
   "config": {
