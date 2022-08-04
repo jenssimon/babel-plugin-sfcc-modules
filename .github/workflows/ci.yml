@@ -33,11 +33,6 @@ jobs:
         yarn
         yarn ci-test
 
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-
     - name: Upload coverage reports to Codecov
       run: |
         # Replace `linux` below with the appropriate OS
