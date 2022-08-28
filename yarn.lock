@@ -2722,7 +2722,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.18.13
     "@babel/eslint-parser": 7.18.9
-    "@babel/types": ^7.18.10
+    "@babel/types": ^7.18.13
     "@commitlint/cli": 17.1.1
     "@commitlint/config-conventional": 17.1.0
     "@jenssimon/eslint-config-base": 6.1.1

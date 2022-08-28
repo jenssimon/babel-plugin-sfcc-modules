@@ -52,7 +52,7 @@
     "semantic-release": "19.0.5"
   },
   "dependencies": {
-    "@babel/types": "^7.18.10",
+    "@babel/types": "^7.18.13",
     "imports-visitor": "^2.0.0"
   },
   "files": [
