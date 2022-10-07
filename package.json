@@ -40,7 +40,7 @@
     "@babel/eslint-parser": "7.19.1",
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
-    "@jenssimon/eslint-config-base": "6.3.7",
+    "@jenssimon/eslint-config-base": "6.3.8",
     "@jenssimon/eslint-config-sfcc": "4.2.1",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
