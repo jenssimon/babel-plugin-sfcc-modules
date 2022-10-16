@@ -6,22 +6,22 @@ const things = require('./cartridges/app_brand/cartridge/scripts/things');
 
 describe('babel-plugin-sfcc-modules', () => {
   it('can handle require(\'*\') with a module in cartridge path behind.', () => {
-    expect(hello).toEqual('Hello World');
+    expect(hello).toBe('Hello World');
   });
 
   it('can handle require(\'*\') with a module in cartridge path before', () => {
-    expect(hallo).toEqual('Hallo Welt');
+    expect(hallo).toBe('Hallo Welt');
   });
 
   it('can handle require(\'*\') with a module in the same cartridge in cartridge path', () => {
-    expect(bonjour).toEqual('Bonjour monde');
+    expect(bonjour).toBe('Bonjour monde');
   });
 
   it('can handle require(\'^\')', () => {
-    expect(petstore).toEqual('Cat');
+    expect(petstore).toBe('Cat');
   });
 
   it('can handle module.exports', () => {
-    expect(things()).toEqual(['badger', 'mushroom', 'snake']);
+    expect(things()).toStrictEqual(['badger', 'mushroom', 'snake']);
   });
 });
