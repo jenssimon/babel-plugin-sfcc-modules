@@ -59,7 +59,7 @@ Option          | Type     | Description
 
 ## ️️⚠️️️️⚠️⚠️ Warning ⚠️⚠️⚠️
 
-![kitten.png](https://github.com/jenssimon/babel-plugin-sfcc-modules/raw/master/kitten.png)
+![kitten.png](https://github.com/jenssimon/babel-plugin-sfcc-modules/raw/main/kitten.png)
 
 You shouldn't use it for frontend code. There are better alternatives to deal with a cartridge path, [NODE_PATH](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders) and the handling of frontend assets in [sgmf-scripts](https://www.npmjs.com/package/sgmf-scripts).
 
@@ -80,5 +80,5 @@ MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/babel-plugin-sfcc-modules
 [gh-status-image]: https://badgen.net/github/status/jenssimon/babel-plugin-sfcc-modules
 
-[coveralls-url]: https://coveralls.io/github/jenssimon/babel-plugin-sfcc-modules?branch=master
-[coveralls-image]: https://coveralls.io/repos/github/jenssimon/babel-plugin-sfcc-modules/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/jenssimon/babel-plugin-sfcc-modules?branch=main
+[coveralls-image]: https://coveralls.io/repos/github/jenssimon/babel-plugin-sfcc-modules/badge.svg?branch=main
