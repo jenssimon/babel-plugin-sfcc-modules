@@ -41,7 +41,7 @@
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.3.0",
     "@jenssimon/eslint-config-base": "6.4.10",
-    "@jenssimon/eslint-config-sfcc": "4.3.1",
+    "@jenssimon/eslint-config-sfcc": "4.3.2",
     "commitizen": "4.2.6",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.29.0",

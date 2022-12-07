@@ -987,16 +987,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jenssimon/eslint-config-sfcc@npm:4.3.1":
-  version: 4.3.1
-  resolution: "@jenssimon/eslint-config-sfcc@npm:4.3.1"
+"@jenssimon/eslint-config-sfcc@npm:4.3.2":
+  version: 4.3.2
+  resolution: "@jenssimon/eslint-config-sfcc@npm:4.3.2"
   dependencies:
     eslint-plugin-es5: 1.5.0
     eslint-plugin-sitegenesis: 1.0.0
   peerDependencies:
     "@jenssimon/eslint-config-base": ">=4.0.0"
     eslint: ">=7.0.0"
-  checksum: 421aad61fdc959011a8a888c48fc613ac78ffa9503bd36ad98667cf8a91f304e90aabc8954c2087681e54790ebacfe5551ec3308f42f3fca74c60f7a610d1c54
+  checksum: 30410865fc3e5bcc7bb0672c6325d9848589c2bf60a0df480e5cfece311de20fce728dae42ad89019395abb7fc53f22e86d56fd928c9a7a9ec1434f2868fc88a
   languageName: node
   linkType: hard
 
@@ -2474,7 +2474,7 @@ __metadata:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
     "@jenssimon/eslint-config-base": 6.4.10
-    "@jenssimon/eslint-config-sfcc": 4.3.1
+    "@jenssimon/eslint-config-sfcc": 4.3.2
     commitizen: 4.2.6
     cz-conventional-changelog: 3.3.0
     eslint: 8.29.0
