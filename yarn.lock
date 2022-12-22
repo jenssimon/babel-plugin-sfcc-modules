@@ -61,7 +61,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.2, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.19.1":
+"@babel/core@npm:^7.1.2, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3":
   version: 7.19.1
   resolution: "@babel/core@npm:7.19.1"
   dependencies:
@@ -84,7 +84,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.19.1, @babel/eslint-parser@npm:^7.19.1":
+"@babel/eslint-parser@npm:7.19.1":
   version: 7.19.1
   resolution: "@babel/eslint-parser@npm:7.19.1"
   dependencies:
@@ -960,12 +960,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jenssimon/eslint-config-base@npm:6.4.12":
-  version: 6.4.12
-  resolution: "@jenssimon/eslint-config-base@npm:6.4.12"
+"@jenssimon/eslint-config-base@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@jenssimon/eslint-config-base@npm:6.5.0"
   dependencies:
-    "@babel/core": ^7.19.1
-    "@babel/eslint-parser": ^7.19.1
     eslint-config-airbnb: 19.0.4
     eslint-config-airbnb-base: 15.0.0
     eslint-import-resolver-node: 0.3.6
@@ -983,20 +981,20 @@ __metadata:
     eslint-plugin-unicorn: 45.0.2
   peerDependencies:
     eslint: ^7.32.0 || ^8.2.0
-  checksum: 1152cb9aa1836ced66f408f7bd1640350984f73981400c24ce61751381347768f123ecef6eeec7f1fd83e752deec641989504afb51ca5f81433228cbeab5e2cf
+  checksum: 47d8a1409475dbe4ec5dd5a22540086d83f94c065637b4d9c5e3df94a8f309dfc9e833af501d345a92e7f7f9720c27f12ce86d4c0b0e13d102c87be9dcaeee2f
   languageName: node
   linkType: hard
 
-"@jenssimon/eslint-config-sfcc@npm:4.3.2":
-  version: 4.3.2
-  resolution: "@jenssimon/eslint-config-sfcc@npm:4.3.2"
+"@jenssimon/eslint-config-sfcc@npm:4.4.0":
+  version: 4.4.0
+  resolution: "@jenssimon/eslint-config-sfcc@npm:4.4.0"
   dependencies:
     eslint-plugin-es5: 1.5.0
     eslint-plugin-sitegenesis: 1.0.0
   peerDependencies:
     "@jenssimon/eslint-config-base": ">=4.0.0"
     eslint: ">=7.0.0"
-  checksum: 30410865fc3e5bcc7bb0672c6325d9848589c2bf60a0df480e5cfece311de20fce728dae42ad89019395abb7fc53f22e86d56fd928c9a7a9ec1434f2868fc88a
+  checksum: 45a80e5f34f7f7fea84e3eb08f1160d71db260243d0157dc6b5af40de3dd2147381fff703f037e325639986e1b859dea7f8e0debdda9257f35f465ddc1192fae
   languageName: node
   linkType: hard
 
@@ -2473,8 +2471,8 @@ __metadata:
     "@babel/types": ^7.18.13
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@jenssimon/eslint-config-base": 6.4.12
-    "@jenssimon/eslint-config-sfcc": 4.3.2
+    "@jenssimon/eslint-config-base": 6.5.0
+    "@jenssimon/eslint-config-sfcc": 4.4.0
     commitizen: 4.2.6
     cz-conventional-changelog: 3.3.0
     eslint: 8.30.0
