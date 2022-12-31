@@ -44,7 +44,7 @@
     "@jenssimon/eslint-config-sfcc": "4.4.0",
     "commitizen": "4.2.6",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.30.0",
+    "eslint": "8.31.0",
     "husky": "8.0.2",
     "jest": "29.3.1",
     "lint-staged": "13.1.0",
