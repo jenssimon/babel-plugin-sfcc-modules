@@ -42,7 +42,7 @@
     "@commitlint/config-conventional": "17.4.2",
     "@jenssimon/eslint-config-base": "6.6.10",
     "@jenssimon/eslint-config-sfcc": "4.6.1",
-    "commitizen": "4.2.6",
+    "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.32.0",
     "husky": "8.0.3",
