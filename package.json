@@ -36,8 +36,8 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@babel/core": "7.21.5",
-    "@babel/eslint-parser": "7.21.3",
+    "@babel/core": "7.21.8",
+    "@babel/eslint-parser": "7.21.8",
     "@commitlint/cli": "17.6.1",
     "@commitlint/config-conventional": "17.6.1",
     "@jenssimon/eslint-config-base": "6.6.15",
