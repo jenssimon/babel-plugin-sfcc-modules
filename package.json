@@ -38,8 +38,8 @@
   "devDependencies": {
     "@babel/core": "7.21.8",
     "@babel/eslint-parser": "7.21.8",
-    "@commitlint/cli": "17.6.1",
-    "@commitlint/config-conventional": "17.6.1",
+    "@commitlint/cli": "17.6.3",
+    "@commitlint/config-conventional": "17.6.3",
     "@jenssimon/eslint-config-base": "6.6.15",
     "@jenssimon/eslint-config-sfcc": "4.6.1",
     "commitizen": "4.3.0",
