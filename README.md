@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-url] [![Coverage Status][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![CI][gh-status-image]][gh-status-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 # babel-plugin-sfcc-modules
 
@@ -69,7 +69,7 @@ The cartridge path concept isn't common for Node.js/frontend code. This plugin w
 
 ## License
 
-MIT © 2022 [Jens Simon](https://github.com/jenssimon)
+MIT © 2023 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/babel-plugin-sfcc-modules
 [npm-image]: https://badgen.net/npm/v/babel-plugin-sfcc-modules
@@ -78,7 +78,8 @@ MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/babel-plugin-sfcc-modules
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/babel-plugin-sfcc-modules
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/babel-plugin-sfcc-modules
-[gh-status-image]: https://badgen.net/github/status/jenssimon/babel-plugin-sfcc-modules
+[gh-status-image]: https://github.com/jenssimon/babel-plugin-sfcc-modules/actions/workflows/ci.yml/badge.svg
+[gh-status-url]: https://github.com/jenssimon/babel-plugin-sfcc-modules/actions/workflows/ci.yml
 
 [coveralls-url]: https://coveralls.io/github/jenssimon/babel-plugin-sfcc-modules?branch=main
 [coveralls-image]: https://coveralls.io/repos/github/jenssimon/babel-plugin-sfcc-modules/badge.svg?branch=main
