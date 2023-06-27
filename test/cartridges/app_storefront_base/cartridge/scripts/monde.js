@@ -1,1 +1,1 @@
-module.exports = 'faux';
+module.exports = 'faux'

@@ -1,1 +1,1 @@
-module.exports = 'nein';
+module.exports = 'nein'

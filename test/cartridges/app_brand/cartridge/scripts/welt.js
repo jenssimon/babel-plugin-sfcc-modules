@@ -1,1 +1,1 @@
-module.exports = 'Welt';
+module.exports = 'Welt'

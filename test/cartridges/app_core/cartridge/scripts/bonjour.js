@@ -1,3 +1,3 @@
-const monde = require('*/cartridge/scripts/monde');
+const monde = require('*/cartridge/scripts/monde')
 
-module.exports = 'Bonjour ' + monde;
+module.exports = 'Bonjour ' + monde

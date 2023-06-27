@@ -1,5 +1,5 @@
-const base = module.superModule;
+const base = module.superModule
 
 module.exports = function () {
-  return ['badger'].concat(base());
-};
+  return ['badger'].concat(base())
+}
