@@ -1,3 +1,3 @@
-const welt = require('*/cartridge/scripts/welt');
+const welt = require('*/cartridge/scripts/welt')
 
-module.exports = 'Hallo ' + welt;
+module.exports = 'Hallo ' + welt
