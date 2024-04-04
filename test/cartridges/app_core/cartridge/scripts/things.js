@@ -1,5 +1,7 @@
 const base = module.superModule
 
-module.exports = function () {
+function foo() {
   return ['mushroom'].concat(base())
 }
+
+module.exports = foo
