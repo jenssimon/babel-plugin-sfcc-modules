@@ -2904,6 +2904,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:^19.0.0"
     "@jenssimon/eslint-config-base": "npm:^7.3.1"
     "@jenssimon/eslint-config-sfcc": "npm:^4.8.0"
+    "@jest/globals": "npm:^29.7.0"
     commitizen: "npm:^4.3.0"
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^8.52.0"

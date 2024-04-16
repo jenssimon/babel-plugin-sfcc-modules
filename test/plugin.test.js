@@ -1,3 +1,5 @@
+import { describe, expect, it } from '@jest/globals'
+
 const hello = require('./cartridges/app_core/cartridge/scripts/hello')
 const hallo = require('./cartridges/app_core/cartridge/scripts/hallo')
 const bonjour = require('./cartridges/app_core/cartridge/scripts/bonjour')
