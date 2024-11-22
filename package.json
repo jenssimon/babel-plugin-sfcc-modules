@@ -64,7 +64,7 @@
       "unicorn/prefer-module": "off"
     }
   },
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.5.2",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
