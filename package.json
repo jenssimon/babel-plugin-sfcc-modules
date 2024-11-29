@@ -61,7 +61,8 @@
       "@jenssimon/base"
     ],
     "rules": {
-      "unicorn/prefer-module": "off"
+      "unicorn/prefer-module": "off",
+      "jest/unbound-method": "off"
     }
   },
   "packageManager": "yarn@4.5.3",
