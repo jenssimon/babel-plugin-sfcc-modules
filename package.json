@@ -32,63 +32,33 @@
     "postpack": "pinst --enable",
     "semantic-release": "semantic-release"
   },
+  "dependencies": {
+    "@babel/types": "^7.23.0",
+    "imports-visitor": "^2.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/eslint-parser": "^7.22.15",
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",
+    "@eslint/compat": "^1.2.4",
+    "@eslint/eslintrc": "^3.2.0",
     "@jenssimon/eslint-config-base": "^8.0.0",
     "@jenssimon/eslint-config-sfcc": "^4.8.0",
     "@jest/globals": "^29.7.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.52.0",
-    "eslint-plugin-jest": "^28.9.0",
+    "eslint-plugin-jest": "^28.10.0",
     "husky": "^9.0.0",
     "jest": "^29.7.0",
     "lint-staged": "^15.0.2",
     "pinst": "^3.0.0",
     "semantic-release": "^24.0.0"
   },
-  "dependencies": {
-    "@babel/types": "^7.23.0",
-    "imports-visitor": "^2.0.0"
-  },
   "files": [
     "/lib"
   ],
-  "eslintConfig": {
-    "extends": [
-      "@jenssimon/base"
-    ],
-    "rules": {
-      "unicorn/prefer-module": "off",
-      "jest/unbound-method": "off"
-    },
-    "overrides": [
-      {
-        "files": [
-          "**/*.test.*",
-          "**/*.spec.*",
-          "**/__tests__/**",
-          "**/__mocks__/**"
-        ],
-        "plugins": [
-          "jest"
-        ],
-        "extends": [
-          "plugin:jest/all"
-        ],
-        "rules": {
-          "jest/max-expects": "off",
-          "jest/no-hooks": "off",
-          "jest/prefer-expect-assertions": "off",
-          "jest/prefer-lowercase-title": "off",
-          "jest/unbound-method": "off"
-        }
-      }
-    ]
-  },
   "packageManager": "yarn@4.6.0",
   "config": {
     "commitizen": {
@@ -96,7 +66,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,ts}": "eslint"
+    "**/*.{js,mjs}": "eslint"
   },
   "release": {
     "branches": [
