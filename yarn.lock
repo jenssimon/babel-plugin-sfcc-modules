@@ -1797,15 +1797,15 @@ __metadata:
   linkType: hard
 
 "@jenssimon/eslint-config-sfcc@npm:^4.8.0":
-  version: 4.8.0
-  resolution: "@jenssimon/eslint-config-sfcc@npm:4.8.0"
+  version: 4.8.1
+  resolution: "@jenssimon/eslint-config-sfcc@npm:4.8.1"
   dependencies:
-    eslint-plugin-es5: "npm:1.5.0"
-    eslint-plugin-sitegenesis: "npm:1.0.0"
+    eslint-plugin-es5: "npm:^1.5.0"
+    eslint-plugin-sitegenesis: "npm:^1.0.0"
   peerDependencies:
     "@jenssimon/eslint-config-base": ">=6.7.0"
     eslint: ">=7.0.0"
-  checksum: 10c0/8c0b2d3b7a6c6bd95fdbbff7222d874b58bafc6479af924eef5ad29c239934fde2d0a92c74e37d20206bd3f05064037af7bd1c2aee1bbd8b8a8cc92ca984b111
+  checksum: 10c0/6096628d98aa8cd1d236cc0b856178d2900ce08ddab9ab280d0d6f8ddc85b863c7aed8cef23c9a972e5ad19008c4defcf53dacdca6dcde258d1624b552cfe8ae
   languageName: node
   linkType: hard
 
@@ -4657,7 +4657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es5@npm:1.5.0":
+"eslint-plugin-es5@npm:^1.5.0":
   version: 1.5.0
   resolution: "eslint-plugin-es5@npm:1.5.0"
   peerDependencies:
@@ -4742,7 +4742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sitegenesis@npm:1.0.0":
+"eslint-plugin-sitegenesis@npm:^1.0.0":
   version: 1.0.0
   resolution: "eslint-plugin-sitegenesis@npm:1.0.0"
   peerDependencies:
