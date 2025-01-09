@@ -27,7 +27,6 @@
     "lint": "eslint ./",
     "test": "jest --coverage",
     "commit": "cz",
-    "postinstall": "husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "semantic-release": "semantic-release"
