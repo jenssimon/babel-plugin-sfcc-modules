@@ -101,8 +101,8 @@ __metadata:
   linkType: hard
 
 "@babel/eslint-parser@npm:^7.22.15":
-  version: 7.26.10
-  resolution: "@babel/eslint-parser@npm:7.26.10"
+  version: 7.27.0
+  resolution: "@babel/eslint-parser@npm:7.27.0"
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals": "npm:5.1.1-v1"
     eslint-visitor-keys: "npm:^2.1.0"
@@ -110,7 +110,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.11.0
     eslint: ^7.5.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/02ff3dec84e4414cf7de5e5221c452b8a8587ac80c2e8793e182abcab379d1d32b1da494ec42623739f76361c76314464b94a58d0ea5c8764169b5f985b2239d
+  checksum: 10c0/bbecdc3f21413c4f0b21bc0ee93520ed47a61520a40d745f874097d01e6e22bf20a5f992d321656f4ef3ddbc04535a7da7ca6de2e87cecb82bbee0888f996480
   languageName: node
   linkType: hard
 
@@ -1534,12 +1534,12 @@ __metadata:
   linkType: hard
 
 "@babel/types@npm:^7.0.0, @babel/types@npm:^7.20.7, @babel/types@npm:^7.23.0, @babel/types@npm:^7.25.9, @babel/types@npm:^7.26.0, @babel/types@npm:^7.26.10, @babel/types@npm:^7.26.3, @babel/types@npm:^7.26.9, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4":
-  version: 7.26.10
-  resolution: "@babel/types@npm:7.26.10"
+  version: 7.27.0
+  resolution: "@babel/types@npm:7.27.0"
   dependencies:
     "@babel/helper-string-parser": "npm:^7.25.9"
     "@babel/helper-validator-identifier": "npm:^7.25.9"
-  checksum: 10c0/7a7f83f568bfc3dfabfaf9ae3a97ab5c061726c0afa7dcd94226d4f84a81559da368ed79671e3a8039d16f12476cf110381a377ebdea07587925f69628200dac
+  checksum: 10c0/6f1592eabe243c89a608717b07b72969be9d9d2fce1dee21426238757ea1fa60fdfc09b29de9e48d8104311afc6e6fb1702565a9cc1e09bc1e76f2b2ddb0f6e1
   languageName: node
   linkType: hard
 
