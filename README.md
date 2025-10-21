@@ -30,7 +30,7 @@ This plugin removes the pain of dealing with modules like [proxyquire](https://w
 ## Install
 
 ```sh
-$ yarn add babel-plugin-sfcc-modules --dev
+yarn add babel-plugin-sfcc-modules --dev
 ```
 
 ## Usage
