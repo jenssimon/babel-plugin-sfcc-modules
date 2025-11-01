@@ -42,7 +42,7 @@
     "@commitlint/config-conventional": "^20.0.0",
     "@eslint/compat": "^1.2.4",
     "@eslint/eslintrc": "^3.2.0",
-    "@jenssimon/eslint-config-base": "^8.0.0",
+    "@jenssimon/eslint-config-base": "^9.0.0",
     "@jenssimon/eslint-config-sfcc": "^4.8.0",
     "@jest/globals": "^30.0.0",
     "commitizen": "^4.3.0",
