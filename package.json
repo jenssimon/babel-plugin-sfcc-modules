@@ -40,7 +40,7 @@
     "@babel/eslint-parser": "^7.22.15",
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@eslint/compat": "^1.2.4",
+    "@eslint/compat": "^2.0.0",
     "@eslint/eslintrc": "^3.2.0",
     "@jenssimon/eslint-config-base": "^8.0.0",
     "@jenssimon/eslint-config-sfcc": "^4.8.0",
