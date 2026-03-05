@@ -2299,15 +2299,15 @@ __metadata:
   linkType: hard
 
 "@jenssimon/eslint-config-sfcc@npm:^4.8.0":
-  version: 4.8.1
-  resolution: "@jenssimon/eslint-config-sfcc@npm:4.8.1"
+  version: 4.8.2
+  resolution: "@jenssimon/eslint-config-sfcc@npm:4.8.2"
   dependencies:
     eslint-plugin-es5: "npm:^1.5.0"
     eslint-plugin-sitegenesis: "npm:^1.0.0"
   peerDependencies:
     "@jenssimon/eslint-config-base": ">=6.7.0"
     eslint: ">=7.0.0"
-  checksum: 10c0/6096628d98aa8cd1d236cc0b856178d2900ce08ddab9ab280d0d6f8ddc85b863c7aed8cef23c9a972e5ad19008c4defcf53dacdca6dcde258d1624b552cfe8ae
+  checksum: 10c0/820dc08bea4fe5d65b54b44f15e36f61b50406ee964940c5c63f365d650bce1e0d589fc49696ca3aa86eb79eec18502fc6d433ac9cac6eba615de661c1fd135b
   languageName: node
   linkType: hard
 
