@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![CI][gh-status-image]][gh-status-url] [![Coverage Status][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![CI][gh-status-image]][gh-status-url]
 
 # babel-plugin-sfcc-modules
 
@@ -7,30 +7,33 @@
 Server-side code for Salesforce Commerce Cloud uses non-standard module resolution patterns:
 
 - first matching cartridge from cartridge path
+
 ```javascript
-require('*/cartridge/scripts/foo')
+require("*/cartridge/scripts/foo")
 ```
 
 - current cartridge
+
 ```javascript
-require('~/cartridge/scripts/bar')
+require("~/cartridge/scripts/bar")
 ```
 
 Also there is a non-standard extension
+
 ```javascript
 module.superModule
 ```
 
 to reference the next match in cartridge path for the current module.
 
-Node.js does not have solutions for these cases.. This can cause problems when you need to run this code in a Node.js environment. The most common case should be for unit testing.
+Node.js does not have solutions for these cases. This can cause problems when you need to run this code in a Node.js environment. The most common case should be for unit testing.
 
 This plugin removes the pain of dealing with modules like [proxyquire](https://www.npmjs.com/package/proxyquire) or [sandboxed-module](https://www.npmjs.com/package/sandboxed-module).
 
 ## Install
 
 ```sh
-yarn add babel-plugin-sfcc-modules --dev
+pnpm add -D babel-plugin-sfcc-modules
 ```
 
 ## Usage
@@ -52,10 +55,10 @@ Add to your Babel configuration:
 
 ## Options
 
-Option          | Type     | Description
-----------------|----------|-------------
-`cartridgePath` | `Array`  | the cartridge path used for lookup
-`basePath`      | `string` | path to the folder containing the cartridges
+| Option          | Type     | Description                                  |
+| --------------- | -------- | -------------------------------------------- |
+| `cartridgePath` | `Array`  | the cartridge path used for lookup           |
+| `basePath`      | `string` | path to the folder containing the cartridges |
 
 ## ️️⚠️️️️⚠️⚠️ Warning ⚠️⚠️⚠️
 
@@ -74,12 +77,8 @@ MIT © 2023 [Jens Simon](https://github.com/jenssimon)
 [npm-url]: https://www.npmjs.com/package/babel-plugin-sfcc-modules
 [npm-image]: https://badgen.net/npm/v/babel-plugin-sfcc-modules
 [npm-downloads-image]: https://badgen.net/npm/dw/babel-plugin-sfcc-modules
-
 [gh-url]: https://github.com/jenssimon/babel-plugin-sfcc-modules
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/babel-plugin-sfcc-modules
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/babel-plugin-sfcc-modules
 [gh-status-image]: https://github.com/jenssimon/babel-plugin-sfcc-modules/actions/workflows/ci.yml/badge.svg
 [gh-status-url]: https://github.com/jenssimon/babel-plugin-sfcc-modules/actions/workflows/ci.yml
-
-[coveralls-url]: https://coveralls.io/github/jenssimon/babel-plugin-sfcc-modules?branch=main
-[coveralls-image]: https://coveralls.io/repos/github/jenssimon/babel-plugin-sfcc-modules/badge.svg?branch=main

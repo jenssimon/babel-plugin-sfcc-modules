@@ -2,71 +2,70 @@
   "name": "babel-plugin-sfcc-modules",
   "version": "0.0.0-development",
   "description": "Babel plugin to handle non-standard module paths used by Salesforce Commerce Cloud (SFCC)",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "cartridge",
+    "commercecloud",
+    "demandware",
+    "import",
+    "module",
+    "require",
+    "salesforce",
+    "sfcc",
+    "sfra",
+    "supermodule"
+  ],
+  "license": "MIT",
+  "author": "Jens Simon <https://github.com/jenssimon>",
   "repository": {
     "type": "git",
     "url": "https://github.com/jenssimon/babel-plugin-sfcc-modules"
   },
-  "keywords": [
-    "sfcc",
-    "demandware",
-    "salesforce",
-    "commercecloud",
-    "sfra",
-    "cartridge",
-    "babel",
-    "babel-plugin",
-    "require",
-    "import",
-    "module",
-    "supermodule"
+  "files": [
+    "/dist"
   ],
-  "main": "./lib/index.js",
-  "author": "Jens Simon <https://github.com/jenssimon>",
-  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "scripts": {
-    "lint": "eslint ./",
-    "test": "jest --coverage",
-    "commit": "cz",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable",
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "test": "vp test",
+    "check": "vp check",
+    "prepublishOnly": "vp run build",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@babel/types": "^7.23.0",
-    "imports-visitor": "^2.0.0"
+    "@babel/runtime": "^7.29.2",
+    "@babel/types": "^7.29.0",
+    "imports-visitor": "^2.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
-    "@babel/eslint-parser": "^7.22.15",
-    "@commitlint/cli": "^20.0.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "@eslint/compat": "^2.0.0",
-    "@eslint/eslintrc": "^3.2.0",
-    "@jenssimon/eslint-config-base": "^8.0.0",
-    "@jenssimon/eslint-config-sfcc": "^4.8.0",
-    "@jest/globals": "^30.0.0",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^9.18.0",
-    "eslint-plugin-jest": "^29.0.0",
-    "husky": "^9.0.0",
-    "jest": "^30.0.0",
-    "lint-staged": "^16.0.0",
-    "pinst": "^3.0.0",
-    "semantic-release": "^25.0.0"
-  },
-  "files": [
-    "/lib"
-  ],
-  "packageManager": "yarn@4.14.1",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "@babel/core": "^7.29.0",
+    "@babel/register": "^7.28.6",
+    "@types/node": "^25.6.0",
+    "@vitest/coverage-v8": "^4.1.5",
+    "semantic-release": "^25.0.3",
+    "typescript": "^6.0.3",
+    "vite-plus": "latest"
   },
   "release": {
     "branches": [
       "main"
     ]
+  },
+  "packageManager": "pnpm@10.33.1",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    }
   }
 }
