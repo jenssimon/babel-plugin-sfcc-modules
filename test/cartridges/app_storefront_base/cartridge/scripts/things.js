@@ -1,5 +1,5 @@
 function foo() {
-  return ['snake']
+  return ["snake"]
 }
 
 module.exports = foo
