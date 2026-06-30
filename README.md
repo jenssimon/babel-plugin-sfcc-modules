@@ -2,6 +2,12 @@
 
 # babel-plugin-sfcc-modules
 
+> [!WARNING]
+> This package is deprecated and no longer maintained.
+> It is continued as `@commerce-klaus/babel-plugin-sfcc-modules` in the Commerce Klaus monorepo:
+> [https://github.com/commerce-klaus/commerce-klaus/tree/main/packages/babel-plugin-sfcc-modules](https://github.com/commerce-klaus/commerce-klaus/tree/main/packages/babel-plugin-sfcc-modules)
+> Please migrate to the new package.
+
 > Babel plugin to handle non-standard module paths used by Salesforce Commerce Cloud (SFCC)
 
 Server-side code for Salesforce Commerce Cloud uses non-standard module resolution patterns:
